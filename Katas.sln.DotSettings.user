@@ -1,0 +1,18 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/Highlighting/AnalysisEnabled/@EntryValue">VISIBLE_FILES</s:String>
+	<s:Boolean x:Key="/Default/CodeInspection/Roslyn/RoslynEnabled/@EntryValue">False</s:Boolean>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7c06f9fb_002D6a2d_002D45d1_002D8e0e_002D8d95652c3d9b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TwoWordsMustBeAnagram" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::A51AA7B9-2CD3-4B5D-A0A8-88759E4589B9::net8.0::Anagram.UnitTests.AnagramParserTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::A51AA7B9-2CD3-4B5D-A0A8-88759E4589B9::net8.0::Anagram.UnitTests.AnagramCheckerTests.ThreeWordsMustBeAnagram&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::A51AA7B9-2CD3-4B5D-A0A8-88759E4589B9::net8.0::Anagram.UnitTests.AnagramCheckerTests.TwoWordsMustNotBeAnagram&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::A51AA7B9-2CD3-4B5D-A0A8-88759E4589B9::net8.0::Anagram.UnitTests.AnagramCheckerTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9c2ad1fd_002D5c9f_002D4ce1_002D8dea_002D9dea9f27a0bc/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TwoWordsMustBeAnagram #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::A51AA7B9-2CD3-4B5D-A0A8-88759E4589B9::net8.0::Anagram.UnitTests.AnagramCheckerOrderByTests.GroupAnagramsMustFind20683SetsOfAnagramsOnTotalOf48162Words&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::A51AA7B9-2CD3-4B5D-A0A8-88759E4589B9::net8.0::Anagram.UnitTests.AnagramCheckerComputeKeyTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::A51AA7B9-2CD3-4B5D-A0A8-88759E4589B9::net8.0::Anagram.UnitTests.AnagramCheckerOrderByTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
