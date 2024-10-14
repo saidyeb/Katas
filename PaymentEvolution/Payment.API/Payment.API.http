@@ -1,0 +1,6 @@
+@Payment.API_HostAddress = http://localhost:5034
+
+POST {{Payment.API_HostAddress}}/cashInPayment/
+Accept: application/json
+
+###

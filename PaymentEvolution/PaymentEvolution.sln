@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payment", "Payment\Payment.csproj", "{B94A6D4E-8B8A-489C-8F9B-900296A64A5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payment.API", "Payment.API\Payment.API.csproj", "{56DD3D60-A142-4121-BF14-25A7773F3C73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payment.Registry", "Payment.Registry\Payment.Registry.csproj", "{D7180B66-494D-4235-BF95-C138F5A0DCAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payment.Application", "Payment.Application\Payment.Application.csproj", "{B86D0901-8E54-44B4-B93A-3F56F4762663}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B94A6D4E-8B8A-489C-8F9B-900296A64A5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B94A6D4E-8B8A-489C-8F9B-900296A64A5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B94A6D4E-8B8A-489C-8F9B-900296A64A5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B94A6D4E-8B8A-489C-8F9B-900296A64A5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56DD3D60-A142-4121-BF14-25A7773F3C73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56DD3D60-A142-4121-BF14-25A7773F3C73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56DD3D60-A142-4121-BF14-25A7773F3C73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56DD3D60-A142-4121-BF14-25A7773F3C73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7180B66-494D-4235-BF95-C138F5A0DCAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7180B66-494D-4235-BF95-C138F5A0DCAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7180B66-494D-4235-BF95-C138F5A0DCAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7180B66-494D-4235-BF95-C138F5A0DCAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B86D0901-8E54-44B4-B93A-3F56F4762663}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B86D0901-8E54-44B4-B93A-3F56F4762663}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B86D0901-8E54-44B4-B93A-3F56F4762663}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B86D0901-8E54-44B4-B93A-3F56F4762663}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
