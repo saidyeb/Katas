@@ -1,11 +1,16 @@
-using Payment.Bankings;
+using System.Reflection;
+using Payment.API.Queries.PaymentCashIn;
 using Payment.PaymentMethodCashIns;
 using Payment.Registry;
+using Swashbuckle.AspNetCore.Filters;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(c =>
+{
+    c.ExampleFilters();
+}).AddSwaggerExamplesFromAssemblies(Assembly.GetEntryAssembly());
 
 builder.Services.AddPaymentServices();
 
@@ -20,12 +25,12 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.MapPost("/{paymentMethodType}/payment/{BankAccountId}/cashIn", (PaymentMethodType paymentMethodType, Currency currency, decimal amount, string bankAccountId) =>
-{
-    var paymentCashIn = app.Services.GetRequiredService<IPaymentCashInFacade>();
-    paymentCashIn.CashInPayment(paymentMethodType, currency, amount, new (new Guid(bankAccountId)));
 
-    return StatusCodes.Status201Created;
+app.MapPost("/{paymentMethodType}/payment/{BankAccountId}/cashIn", (PaymentCashInRequest request, IPaymentCashInFacade paymentCashIn) =>
+{
+    paymentCashIn.CashInPayment(request.PaymentMethodType, request.Currency, request.Amount, request.BankAccountId);
+
+    return Results.Created();
 })
     .WithName("PostCashInPayment")
     .WithOpenApi();

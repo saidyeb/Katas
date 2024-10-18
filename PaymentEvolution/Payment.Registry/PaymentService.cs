@@ -9,10 +9,10 @@ public static class PaymentService
 {
     public static void AddPaymentServices(this IServiceCollection  serviceCollection)
     {
-        serviceCollection.AddSingleton<IPaymentMethodFactory, PaymentMethodFactory>()
+        serviceCollection.AddScoped<IPaymentMethodFactory, PaymentMethodFactory>()
             .AddScoped<IPaymentCashInFacade, PaymentCashInFacade>()
-            .AddScoped<IPaymentMethod, ApplePayPayment>()
-            .AddScoped<IPaymentMethod, GooglePayPayment>()
-            .AddScoped<IPaymentMethod, DoublePayment>();
+            .AddScoped<ApplePayPayment>()
+            .AddScoped<GooglePayPayment>()
+            .AddScoped<DoublePayment>();
     }
 }
